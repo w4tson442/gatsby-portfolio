@@ -18,9 +18,17 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: 'I am a UC Santa Cruz graduate of 2019 (Go Slugs!), with a B.S in Computer Science!',
-  paragraphTwo: 'I have a passion for learning both front end and back end frameworks and new technologies!',
-  paragraphThree: 'Fun Fact! I am fluent in Japanese and I play kendo and piano while also shooting photography and playing games as a hobby!',
+  paragraphOne: 
+    'Born and raised in Sothern California, I safely graduted ' +
+    'the University of California Santa Cruz in 2019 with a B.S' +
+    ' in Computer Science. Since then, the passion for programming' +
+    ' grew and gained skills in Full Stack Development!',
+  paragraphTwo: 
+    'Skills include understanding languages and frameworks like' +
+    ' Python/Django, PHP/Yii, Javascript/Node.js(This website), CSS/HTML5.',
+  paragraphThree: 
+    'Fun Fact! As a side hobby I love golf, photography and traveling. I also ' +
+    ' posess skills in both piano and kendo(1st dan); 10 years each.',
   resume: 'https://docs.google.com/document/d/1yBuAce0x4sWR5DXQWvxuXhG3buxFwcBvc1U4mNwMV3c/edit?usp=sharing', // if no resume, the button will not show up
 };
 
@@ -28,30 +36,30 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
+    img: 'lamp.jpg',
+    title: 'AMU Virtual Machine',
+    info: 'Personal Virtual Machine use for large scale web development!',
+    info2: 'Shell Script, Vagrant, Virtual Box',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/w4tson442/AMU-virtualmachine', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
+    img: 'googlio.png',
+    title: 'Googlio',
+    info: 'Google Information Dashboard of Google Doc, Google Calendar and Gmail!',
+    info2: 'Python, Django, Google API',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/w4tson442/Googlio', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'gatsby.png',
+    title: 'Gatsby Portfolio',
+    info: 'Making a Website Portfolio!',
+    info2: 'Gatsby, Netlify, Javascript/Node.js, React',
+    url: 'https://justintoyo.com/',
+    repo: 'https://github.com/w4tson442/gatsby-portfolio', // if no repo, the button will not show up
   },
 ];
 
