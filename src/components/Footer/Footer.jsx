@@ -21,7 +21,7 @@ const Footer = () => {
         </span>
         <div className="social-links">
           {networks &&
-            networks.map((network) => {
+            networks.map(network => {
               const { id, name, url } = network;
               return (
                 <a
@@ -43,7 +43,12 @@ const Footer = () => {
             Jacobo Martínez
           </a>
         </p>
-
+        <p className="footer__text">
+          © {new Date().getFullYear()} - Website Created by{' '}
+          <a href="https://github.com/w4tson442" target="_blank" rel="noopener noreferrer">
+            Justin Ichiro Toyomitsu
+          </a>
+        </p>
         {isEnabled && <GithubButtons />}
       </Container>
     </footer>
